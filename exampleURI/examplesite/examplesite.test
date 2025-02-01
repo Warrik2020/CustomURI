@@ -10,9 +10,13 @@ IMAGE: https://images.desenio.com/zoom/pp0264_1-27616.jpg
 
 LIST: Item 1, Item 2, Item 3, Item 4
 
-BUTTON: testFunction()  # Click me to trigger a JavaScript function!
+BUTTON: testFunction CLASS="Test"
 
 SCRIPT:
-    function testFunction() {
-        alert("Hello! You clicked the button.");
-    }
+    document.addEventListener('click',function(event) {
+        if (event = "") {
+            if (event.target.matches('.Test')) {
+                alert("Hello! You clicked the button.");
+            }
+        };
+    });
