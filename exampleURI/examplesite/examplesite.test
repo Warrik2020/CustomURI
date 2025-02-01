@@ -1,3 +1,22 @@
+STYLE:
+    .header { color: blue; font-size: 24px; }
+    .paragraph { color: gray; font-style: italic; }
+    .button { background-color: green; color: white; padding: 10px; }
+SCRIPT:
+    function onButtonClick()
+        print("Button clicked!")
+    end
 TITLE: Test Site
 HEADER: Hello World!
 TEXT: This is a test page.
+BUTTON: Click Me -> onButtonClick
+LIST:
+    - Item 1
+    - Item 2
+OLIST:
+    - Step 1
+    - Step 2
+TABLE:
+    Name, Money
+    Bob, 25
+    Jeremy, 50
