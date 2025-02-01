@@ -4,7 +4,8 @@ HEADER: Welcome to the Test Website!
 
 PARA: This is a simple test website built using PYHTML (my custom code thing for websites).
 
-LINK: Visit Google | https://www.google.com
+LINK: Visit example site | exampleURI://examplesite.test
+LINK: If I'm not stupid, this won't do anything | https://www.google.com/
 
 IMAGE: https://s3.amazonaws.com/static.graphemica.com/glyphs/i500s/000/010/213/original/0048-500x500.png?1275328219
 
