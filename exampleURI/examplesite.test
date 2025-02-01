@@ -1,9 +1,3 @@
-<html>
-<head>
-    <title>Test Site</title>
-</head>
-<body>
-    <h1>Hello World!</h1>
-    <p>This is a simple test page.</p>
-</body>
-</html>
+TITLE: Test Site
+HEADER: Hello World!
+TEXT: This is a test page.
