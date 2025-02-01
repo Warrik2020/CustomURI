@@ -20,3 +20,7 @@ SCRIPT:
             }
         };
     });
+CSS:
+    h1{
+        color: aqua;
+    }
