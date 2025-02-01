@@ -15,7 +15,7 @@ BUTTON: testFunction | CLASS="Test"
 
 SCRIPT:
     document.addEventListener('click',function(event) {
-        alert(event);
+        alert(event.target);
         if (event = "") {
             if (event.target.matches('.Test')) {
                 alert("Hello! You clicked the button.");
