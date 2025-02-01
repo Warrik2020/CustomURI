@@ -6,8 +6,8 @@ PARA: This is a paragraph of text to test the custom syntax.
 LIST: Item 1, Item 2, Item 3, Item 4
 
 SCRIPT:
-    document.addEventListener("DOMContentLoaded", function() {
-        alert("JavaScript is working!");
+    document.addEventListener('click',function(event){
+        alert("Balls");
     });
 
 CSS:
