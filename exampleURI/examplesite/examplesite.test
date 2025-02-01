@@ -1,41 +1,18 @@
-TITLE: My Custom Test Site
-HEADER: Welcome to My Test Page
+TITLE: Test Website
 
-PARA: This is a paragraph of text to test the custom syntax.
+HEADER: Welcome to the Test Website!
+
+PARA: This is a simple test website built using PYHTML (my custom code thing for websites).
+
+LINK: Visit Google | https://www.google.com
+
+IMAGE: https://images.desenio.com/zoom/pp0264_1-27616.jpg
 
 LIST: Item 1, Item 2, Item 3, Item 4
 
-SCRIPT:
-    document.addEventListener('click',function(event){
-        alert("Balls");
-    });
+BUTTON: testFunction()  # Click me to trigger a JavaScript function!
 
-CSS:
-    body {
-        background-color: #f0f0f0;
-        font-family: Arial, sans-serif;
-        text-align: center;
-        padding: 20px;
-    }
-    
-    h1 {
-        color: blue;
-    }
-    
-    p {
-        font-size: 18px;
-        color: #333;
-    }
-    
-    a {
-        display: block;
-        margin-top: 10px;
-        font-size: 16px;
-        color: red;
-        text-decoration: none;
-    }
-    
-    img {
-        margin-top: 20px;
-        border: 2px solid black;
+SCRIPT:
+    function testFunction() {
+        alert("Hello! You clicked the button.");
     }
