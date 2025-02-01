@@ -19,7 +19,7 @@ SCRIPT:
         if (event = "") {
             if (event.target.matches('.Test')) {
                 alert("Hello! You clicked the button.");
-            }
+            };
         };
     });
 CSS:
