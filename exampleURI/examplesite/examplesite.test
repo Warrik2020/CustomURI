@@ -3,9 +3,9 @@ STYLE:
     .paragraph { color: gray; font-style: italic; }
     .button { background-color: green; color: white; padding: 10px; }
 SCRIPT:
-    function onButtonClick()
+    function onButtonClick() {
         print("Button clicked!")
-    end
+    }
 TITLE: Test Site
 HEADER: Hello World!
 TEXT: This is a test page.
